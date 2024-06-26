@@ -61,8 +61,8 @@ lv_demo_widgets.b
 
 Ensure the Arduino settings are:
 ```
-PSRAM:    OPI PSRAM
-Partition Scheme: Huge App (3MB No OTA / 1MB SPIFFS)
+PSRAM:             OPI PSRAM
+Partition Scheme:  Huge App (3MB No OTA / 1MB SPIFFS)
 ```
 
 ## Build LVGL demos with v8.4.0 and example code and latest GFX library (v1.4.7)  
