@@ -4,7 +4,12 @@ LVGL setup for GUITION  4848S040
 ## GUITION 4848S040 LVGL Demo build instructions
 
 A lovely ESP32 S3 board.   
-https://www.elecrow.com/esp32-display-7-inch-hmi-display-rgb-tft-lcd-touch-screen-support-lvgl.html
+
+Information here:
+https://homeding.github.io/boards/esp32s3/panel-4848S040.htm
+https://github.com/esphome/esphome/discussions/6747
+https://github.com/arendst/Tasmota/discussions/20527
+https://community.home-assistant.io/t/guition-4-480x480-esp32-s3-4848s040-smart-display-with-lvgl/729271
 
 <p align="center">
   <img src="https://github.com/paulhamsh/Electrow-Terminal-7-LVGL/blob/main/Elecrow-Terminal-7.png" width="400" title="Elecrow Terminal">
@@ -25,7 +30,8 @@ Install Arduino libraries:
   LoyvyanGFX     version 1.1.16
   TAMC-GT911     version 1.0.2
 ```
-Get the Arduino_7inch.zip file from here: https://www.elecrow.com/download/product/ESP32_Display/7.0inch/Arduino_7inch.zip    
+Get the 4.0inch_ESP32-4848S040.zip file from here: http://pan.jczn1688.com/directlink/1/ESP32%20module/4.0inch_ESP32-4848S040.zip
+
 
 Make a folder and copy over the folder ```HMI-7``` into it  (for board type  WZ8048C070 - if a different board type read the README.txt)   
 
