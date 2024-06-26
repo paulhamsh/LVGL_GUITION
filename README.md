@@ -1,4 +1,4 @@
-# LVGL_GUITION
+# LVGL GUITION
 LVGL setup for GUITION  4848S040
 
 ## GUITION 4848S040 LVGL Demo build instructions
