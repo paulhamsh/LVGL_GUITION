@@ -6,10 +6,10 @@ LVGL setup for GUITION  4848S040
 A lovely ESP32 S3 board.   
 
 Information here:    
-   [https://homeding.github.io/boards/esp32s3/panel-4848S040.htm]
-   [ttps://github.com/esphome/esphome/discussions/6747]  
-   [https://github.com/arendst/Tasmota/discussions/20527]    
-   [https://community.home-assistant.io/t/guition-4-480x480-esp32-s3-4848s040-smart-display-with-lvgl/729271]     
+   [https://homeding.github.io/boards/esp32s3/panel-4848S040.htm]    
+   [ttps://github.com/esphome/esphome/discussions/6747]     
+   [https://github.com/arendst/Tasmota/discussions/20527]      
+   [https://community.home-assistant.io/t/guition-4-480x480-esp32-s3-4848s040-smart-display-with-lvgl/729271]      
 
 <p align="center">
   <img src="https://github.com/paulhamsh/LVGL_GUITION/blob/main/GUITION.jpg" width="400" title="GUITION">
