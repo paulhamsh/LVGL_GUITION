@@ -46,3 +46,13 @@ bool touch_touched()
     return false;
   }
 }
+
+bool touch_has_signal()
+{
+  return true;
+}
+
+bool touch_released()
+{
+  return true;
+}
