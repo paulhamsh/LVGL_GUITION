@@ -12,7 +12,7 @@ https://github.com/arendst/Tasmota/discussions/20527
 https://community.home-assistant.io/t/guition-4-480x480-esp32-s3-4848s040-smart-display-with-lvgl/729271
 
 <p align="center">
-  <img src="https://github.com/paulhamsh/Electrow-Terminal-7-LVGL/blob/main/Elecrow-Terminal-7.png" width="400" title="Elecrow Terminal">
+  <img src="https://github.com/paulhamsh/LVGL_GUITION/blob/main/GUITION.png" width="400" title="GUITION">
 </p>   
 
 The wiki is here: https://www.elecrow.com/wiki/esp32-display-702727-intelligent-touch-screen-wi-fi26ble-800480-hmi-display.html  
