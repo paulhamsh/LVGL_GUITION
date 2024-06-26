@@ -28,8 +28,6 @@
 #include <lvgl.h>
 #include <demos/lv_demos.h>
 
-
-
 #include <Arduino_GFX_Library.h>
 
 #define GFX_DEV_DEVICE ESP32_4848S040_86BOX_GUITION
@@ -47,6 +45,9 @@ Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
 Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
     480 /* width */, 480 /* height */, rgbpanel, 1 /* rotation */, true /* auto_flush */,
     bus, GFX_NOT_DEFINED /* RST */, st7701_type9_init_operations, sizeof(st7701_type9_init_operations));
+
+
+
 
 /*******************************************************************************
  * Please config the touch panel in touch.h
@@ -106,9 +107,6 @@ void setup()
 
   // Init touch device
   touch_init();
-
-  // Init Display
-  //gfx->begin();
   
   gfx->begin(16000000); /* specify data bus speed */
 
