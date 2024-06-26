@@ -65,7 +65,7 @@ PSRAM:    OPI PSRAM
 Partition Scheme: Huge App (3MB No OTA / 1MB SPIFFS)
 ```
 
-## Build LVGL demos with v8.4.0 and latest GFX library (v1.4.7)  
+## Build LVGL demos with v8.4.0 and example code and latest GFX library (v1.4.7)  
 
 Board manager: ESP32 S3 Dev Module   
 esp32 version 2.0.16   
