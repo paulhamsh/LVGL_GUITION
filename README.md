@@ -1,4 +1,5 @@
-# LVGL GUITION
+# LVGL GUITION (aka LVGL 480x480 ESP32 panel)
+
 LVGL setup for GUITION  4848S040
 
 ## GUITION 4848S040 LVGL Demo build instructions
