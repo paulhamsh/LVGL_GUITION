@@ -38,7 +38,12 @@ Copy folder ```4.0inch_ESP32-4848S040\1-Demo\Demo_Arduino\1_2_4.0_LvglWidgets```
 
 Copy the lv_conf.h from ```1_2_4.0_LvglWidgets\LVGL configuration replacement file``` to ```Arduino\libraries\lvgl\src\lv_conf.h```    
 
-In ```lv_conf.h``` comment out ```#define LV_USE_FS_FATFS 1```
+In ```lv_conf.h```  make the following edit. 
+
+Comment out 
+```
+#define LV_USE_FS_FATFS 1
+```
 
 In ```4.0_LvglWidgets.ino``` do the following edits.    
 
