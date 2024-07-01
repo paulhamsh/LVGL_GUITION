@@ -175,3 +175,5 @@ Edit ```lv_conf.h```
 #define LV_USE_DEMO_WIDGETS 1
 #define LV_FONT_MONTSERRAT_24 1
 ```
+
+Compile and run.    
