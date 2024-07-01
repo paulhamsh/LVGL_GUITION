@@ -34,9 +34,9 @@ static const uint32_t screenWidth = 480;
 static const uint32_t screenHeight = 480;
 //int buf_size_in_bytes;
 static const int buf_size_in_bytes = screenWidth * screenHeight * sizeof(lv_color_t) / 10;
-static uint16_t *disp_draw_buf;
+static lv_color_t *disp_draw_buf;
 // Use below if not dynamically allocating memory
-//static uint16_t disp_draw_buf[buf_size_in_bytes / 2];
+//static uint16_t disp_draw_buf[buf_size_in_bytes / sizeof(lv_color_t];
 
 /* Display flushing */
 void my_disp_flush(lv_display_t *disp, const lv_area_t *area, uint8_t *px_map)
@@ -81,9 +81,9 @@ void setup()
   lv_init();
 
 #ifdef ESP32
-  disp_draw_buf = (uint16_t *) heap_caps_malloc(buf_size_in_bytes, MALLOC_CAP_INTERNAL | MALLOC_CAP_8BIT);
+  disp_draw_buf = (lv_color_t *) heap_caps_malloc(buf_size_in_bytes, MALLOC_CAP_INTERNAL | MALLOC_CAP_8BIT);
 #else
-  disp_draw_buf = (uint16_t *) malloc(buf_size_in_bytes);
+  disp_draw_buf = (lv_color_t *) malloc(buf_size_in_bytes);
 #endif
 
   if (disp_draw_buf == nullptr)
