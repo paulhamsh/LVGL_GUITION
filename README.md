@@ -26,7 +26,7 @@ Arduino IDE:   2.3.2
 Install Arduino libraries:
 ```
   GFX Library for Arduino by Moon On Our Nation   version 1.2.9
-  lvgl                                            version 8.4.0
+  lvgl                                            version 8.3.0
   TAMC-GT911                                      version 1.0.2
 ```
 
@@ -73,8 +73,8 @@ Arduino IDE:   2.3.2
 
 Install Arduino libraries:
 ```
-  lvgl                                            version 8.4.0
   GFX Library for Arduino by Moon On Our Nation   version 1.4.7
+  lvgl                                            version 8.4.0
   TAMC-GT911                                      version 1.0.2
 ```
 
