@@ -17,7 +17,7 @@ Information here:
   <img src="https://github.com/paulhamsh/LVGL_GUITION/blob/main/GUITION.jpg" width="400" title="GUITION">
 </p>   
 
-## Build LVGL demos with v8.4.0, latest GFX library and example code 
+## Build LVGL demos with LVGL v8.4.0, Arduino GFX v1.4.7 library and example code 
 
 Board manager: ESP32 S3 Dev Module   
 esp32 version 2.0.16   
