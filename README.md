@@ -164,6 +164,8 @@ Install Arduino libraries:
   TAMC-GT911                                      version 1.0.2
 ```
 
+Download the code in ```v9``` folder and rename the folder to ```LVGL_GUITION_v9```   
+
 Copy ```Arduino\libraries\lvgl\lv_conf_template.h``` to ```src\lv_conf.h```   
 Copy folders ```Arduino\libraries\lvgl\demos``` and ```Arduino\libraries\lvgl\examples```  to ```Arduino\libraries\lvgl\src```     
 
