@@ -17,7 +17,7 @@ Information here:
   <img src="https://github.com/paulhamsh/LVGL_GUITION/blob/main/GUITION.jpg" width="400" title="GUITION">
 </p>   
 
-## Build LVGL demos with v8.4.0 and example code 
+## Build LVGL demos with v8.4.0, latest GFX library and example code 
 
 Board manager: ESP32 S3 Dev Module   
 esp32 version 2.0.16   
@@ -25,8 +25,8 @@ Arduino IDE:   2.3.2
 
 Install Arduino libraries:
 ```
-  GFX Library for Arduino by Moon On Our Nation   version 1.2.9
-  lvgl                                            version 8.3.0
+  GFX Library for Arduino by Moon On Our Nation   version 1.4.7
+  lvgl                                            version 8.4.0
   TAMC-GT911                                      version 1.0.2
 ```
 
@@ -65,20 +65,7 @@ PSRAM:             OPI PSRAM
 Partition Scheme:  Huge App (3MB No OTA / 1MB SPIFFS)
 ```
 
-## Build LVGL demos with v8.4.0 and example code and latest GFX library (v1.4.7)  
-
-Board manager: ESP32 S3 Dev Module   
-esp32 version 2.0.16   
-Arduino IDE:   2.3.2   
-
-Install Arduino libraries:
-```
-  GFX Library for Arduino by Moon On Our Nation   version 1.4.7
-  lvgl                                            version 8.4.0
-  TAMC-GT911                                      version 1.0.2
-```
-
-As above, but also add the following line to ```4.0_LvglWidgets.ino```   
+Add the following to ```4.0_LvglWidgets.ino```   
 
 ```
 #define GFX_DEV_DEVICE ESP32_4848S040_86BOX_GUITION
