@@ -131,7 +131,7 @@ Install Arduino libraries:
   TAMC-GT911                                      version 1.0.2
 ```
 
-Get the code in the v8 folder, in a folder named ```xxxxx```   
+Get the code in the v8 folder, into a folder named ```LVGL_GUITION_v8```   
 
 Copy the lv_conf.h to ```Arduino\libraries\lvgl\src\lv_conf.h```   
 
