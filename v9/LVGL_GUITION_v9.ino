@@ -36,7 +36,7 @@ static const uint32_t screenHeight = 480;
 static const int buf_size_in_bytes = screenWidth * screenHeight * sizeof(lv_color_t) / 10;
 static lv_color_t *disp_draw_buf;
 // Use below if not dynamically allocating memory
-//static uint16_t disp_draw_buf[buf_size_in_bytes / sizeof(lv_color_t];
+//static uint16_t disp_draw_buf[buf_size_in_bytes / sizeof(lv_color_t)];
 
 /* Display flushing */
 void my_disp_flush(lv_display_t *disp, const lv_area_t *area, uint8_t *px_map)
