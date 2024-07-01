@@ -1,6 +1,4 @@
-#include <lvgl.h>
 #include <demos/lv_demos.h>
-
 #include <Arduino_GFX_Library.h>
 
 #define GFX_DEV_DEVICE ESP32_4848S040_86BOX_GUITION
@@ -27,30 +25,26 @@ Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
  ******************************************************************************/
 #include "touch.h"
 
-
-
 static uint32_t my_tick_function(void) {
   return millis();
 }
 
-
 /* Change to your screen resolution */
 static const uint32_t screenWidth = 480;
 static const uint32_t screenHeight = 480;
+//int buf_size_in_bytes;
 static const int buf_size_in_bytes = screenWidth * screenHeight * sizeof(lv_color_t) / 10;
 static uint16_t *disp_draw_buf;
+// Use below if not dynamically allocating memory
 //static uint16_t disp_draw_buf[buf_size_in_bytes / 2];
 
 /* Display flushing */
-//void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p)
 void my_disp_flush(lv_display_t *disp, const lv_area_t *area, uint8_t *px_map)
 {
   uint32_t w = (area->x2 - area->x1 + 1);
   uint32_t h = (area->y2 - area->y1 + 1);
 
-  //lv_draw_sw_rgb565_swap(px_map, w * h);
   gfx->draw16bitRGBBitmap(area->x1, area->y1, (uint16_t *)px_map, w, h);
-
   lv_disp_flush_ready(disp);
 }
 
