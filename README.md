@@ -117,7 +117,11 @@ And comment out these lines:
 //   10 /* vsync_front_porch */, 8 /* vsync_pulse_width */, 20 /* vsync_back_porch */);
 ```
 
-
+In ```touch.h``` add this ```#define```
+```
+//#define TOUCH_GT911_ROTATION ROTATION_NORMAL
+#define TOUCH_GT911_ROTATION 0
+```
 
 
 ## Build LVGL demos with v8.4.0 and code in v8 folder 
