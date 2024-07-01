@@ -120,15 +120,15 @@ And comment out these lines:
 In ```touch.h``` add this ```#define```
 ```
 //#define TOUCH_GT911_ROTATION ROTATION_NORMAL
-#define TOUCH_GT911_ROTATION 0
+#define TOUCH_GT911_ROTATION ROTATION_LEFT
 ```
 
 Rotation options are:
 ```
-1 - ROTATION_RIGHT
-2 - ROTATION_NORMAL
-3 - ROTATION_LEFT
-4 - ROTATION_INVERTED
+#define ROTATION_LEFT      (uint8_t)0
+#define ROTATION_INVERTED  (uint8_t)1
+#define ROTATION_RIGHT     (uint8_t)2
+#define ROTATION_NORMAL    (uint8_t)3
 ```
 
 ## Build LVGL demos with v8.4.0 and code in v8 folder 
